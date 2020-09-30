@@ -16,12 +16,31 @@ body {
   flex-direction: column;
   height: 100vh;
 }
+.container:hover {
+  background: #a34fbf;
+}
 
 .circle {
-  width: 100px;
-  height: 100px;
-  border: 2px solid #f53a4c;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+  background: #a0f568;
+}
+.circle:hover {
+  background: #f53a4c;
+  animation: shadow 2s ease infinite;
+}
+
+@keyframes shadow {
+  0% {
+    box-shadow: 0 0 0 2em #000000;
+  }
+  50% {
+    box-shadow: 0 0 0 20em #000000, 0 0 0 40px #f53a4c;
+  }
+  100% {
+    box-shadow: 0 0 0 20px #000000, 0 0 0 40px #f53a4c, 0 0 0 60px #7048f5;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -20,31 +20,44 @@ body {
   }
 }
 
-.circle {
-  width: 200px;
-  height: 200px;
-
-
+.circle-one {
+  width: 12em;
+  height: 12em;
   border-radius: 50%;
   background: #a0f568;
-  &:hover {background: #f53a4c;
-            animation: shadow 2s ease infinite;}
 }
 
-@keyframes  shadow{
-  0% {
-    box-shadow: 0 0 0 2em #000000;
-  }
-  50% {
-    box-shadow: 0 0 0 20em #000000,
-    0 0 0 40px #f53a4c;
-  }
-  100% {
-    box-shadow: 0 0 0 20px #000000,
-    0 0 0 40px #f53a4c,
-    0 0 0 60px #7048f5;
-  }
+.circle-two {
+  box-shadow: 0 0 0 6em #f5a293;
+  opacity: 0;
 }
+
+.circle-three {
+  box-shadow:
+          0 0 0 6em #f5a293,
+          0 0 0 12em #f54348;
+  opacity: 0;
+}
+
+.circle-four {
+  box-shadow:
+          0 0 0 6em #f5a293,
+          0 0 0 12em #f54348,
+          0 0 0 18em #b26df5;
+  opacity: 0;
+}
+
+.circle-five {
+  box-shadow:
+          0 0 0 6em #f5a293,
+          0 0 0 12em #f54348,
+          0 0 0 18em #b26df5,
+          0 0 0 24em #8f84f5;
+  opacity: 0;
+}
+
+
+
 
 
 

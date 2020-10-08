@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $( ".circle-one" ).mouseenter(function() {
+ $( ".circle-one" ).mouseenter(function() {
 		$( ".circle-one" ).animate({
 			opacity: "1",
 			width: "18vmin",
@@ -26,7 +26,7 @@ $(document).ready(function(){
 			height: "98vmin"
 		}, 2700);
   });
-  $( ".circle-one" ).mouseleave(function() {
+ $( ".circle-one" ).mouseleave(function() {
   	$( ".circle-one" ).animate({
 			opacity: "1",
 			width: "10vmin",
